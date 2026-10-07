@@ -1,11 +1,11 @@
 {
   "name": "grupo-jpg-apresentacao",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 7779",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 7779",
     "lint": "eslint"
   },
   "dependencies": {

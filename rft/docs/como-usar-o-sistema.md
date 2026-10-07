@@ -9,7 +9,7 @@ Este site é um deck executivo de 14 slides para reunião. Não é o Êxito HUB,
 
 ## Na sala
 
-1. Abra `/` (local: `npm run dev` → `http://localhost:3000`).
+1. Abra `/` (local: `npm run dev` → `http://localhost:7779`).
 2. A capa (01) é a promessa. Clique em **Começar** ou avance com **→**.
 3. Avance com **→**, **Space** ou seta direita. Volte com **←**.
 4. Narrativa: 02 concentração (três saídas, um caixa) → 03 Operação/Canal/Ativo → 04 árvore da proposta → 05 clique nas entidades → 06 B2B com camadas → 07 digital fora da JPG → 08 marca sai da operação → **09 preço 357,50** → **10 +76,56 e tabela** → 11 ganho a validar → 12 pilares → 13 jornada → 14 decisão.

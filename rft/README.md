@@ -7,4 +7,4 @@ npm install
 npm run dev
 ```
 
-Abre `http://localhost:3000`. Role para avançar. Guia: `docs/como-usar-o-sistema.md`. Comportamento: `DOCUMENTACAO-SISTEMA.md`.
+Abre `http://localhost:7779`. Role para avançar. Guia: `docs/como-usar-o-sistema.md`. Comportamento: `DOCUMENTACAO-SISTEMA.md`.

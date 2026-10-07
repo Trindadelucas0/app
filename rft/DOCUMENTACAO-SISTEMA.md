@@ -2,8 +2,8 @@
 
 | Item | Valor |
 |------|--------|
-| Versão do sistema | 1.2.3 — Apresentação executiva |
-| Última atualização | 08/09/2026 (composição por wireframe: 01≠02, 09=357,50, 10=tabela+76,56) |
+| Versão do sistema | 1.2.4 — Apresentação executiva |
+| Última atualização | 25/09/2026 (porta local 7779) |
 | Fonte oficial | Este arquivo |
 
 ## 1. Como usar este documento
@@ -24,6 +24,7 @@ Guia do dia a dia: `docs/como-usar-o-sistema.md` e §8.
 
 | Versão | Data | Nome | O que mudou |
 |--------|------|------|-------------|
+| 1.2.4 | 25/09/2026 | Apresentação executiva | Porta local: `next dev` e `next start` em 7779 (`http://localhost:7779`) |
 | 1.2.3 | 08/09/2026 | Apresentação executiva | Wireframes: capa teaser; 02 três saídas; 03 colunas preenchidas; 04 árvore 2 níveis; 05 card clicável; 06–07 chips; 08 antes/depois da marca; 09 herói 357,50; 10 só tabela+76,56 |
 | 1.2.2 | 08/09/2026 | Apresentação executiva | Deck vira mapa: nós brancos com borda #2EA44E; capa JPG no centro; s04 mapa da proposta; +76,56 herói em 09/10; jornada horizontal |
 | 1.2.1 | 08/09/2026 | Apresentação executiva | Capa branca com filete verde e botão Começar; 09, 10 e 14 seguem navy |
@@ -150,7 +151,7 @@ Fonte: aba CENÁRIO da planilha + PPTX slide 8. Badge: simulação em revisão.
 
 Ver também `docs/como-usar-o-sistema.md`.
 
-1. `npm run dev` e abrir `http://localhost:3000`.
+1. `npm run dev` e abrir `http://localhost:7779`.
 2. Projetar a tela. A capa (slide 01) é branca com filete verde e JPG no centro. Clique em **Começar a apresentação** ou avance com →, Space ou seta direita.
 3. Narrativa na sala: 02 três saídas / um caixa → 03 Operação/Canal/Ativo → 04 árvore 2 níveis → 05 clique nas entidades → 06–07 camadas → 08 marca sai → **09 = 357,50** → **10 = +76,56 e tabela** → 11 árvore a validar → 12 uma frase por pilar → 13 verbos → 14 uma JPG vs IP/JPG/B2B/B2C.
 4. No 10, dizer em voz alta: Margem A não abate custo; Margem B é a linha da planilha; o +76,56 compara só B com B; IRPJ/CSLL em revisão; não é economia anual.
@@ -175,11 +176,14 @@ Site estático. Sem auth, upload, API própria ou secrets. Headers: `nosniff`, `
 
 ```
 npm install
-npm run dev    # http://localhost:3000
+npm run dev    # http://localhost:7779
 npm run build
+npm start      # next start -p 7779
 ```
 
 Não há `.env` obrigatório.
+
+VPS (produção): pasta `/root/PROJETOS/app/rft`, processo PM2 `app-rft`, URL `http://179.199.149.12:7779`. Sem secrets neste arquivo.
 
 ## 12. Ao atualizar este documento
 
